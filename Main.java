@@ -1,17 +1,34 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+package br.com.questao2;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        FPadrao fp = new FPadrao(1, "Jennifer", 1500);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        System.out.println(fp.toString());
+
+        FComissionado fc = new FComissionado(2, "João", 1000, 2, 10000);
+        System.out.println(fc.toString());
+        FProdutividade fp = new FProutividade(1, "Pedro", 1200,0.50, 100);
+        System.out.println(fpr.toString());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
+
     }
-}
